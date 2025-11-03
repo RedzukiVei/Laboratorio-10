@@ -16,12 +16,13 @@ El proyecto se compone de los siguientes archivos:
 - `tests`: Carpeta que cotiene ejemplos bien macizos para poner a prueba en clase.
 
 ## Codificación
+Todo esto se realiza en WSL ubuntu dentro de Powershell.
 
 ```bash
 flex lexer.l
 
-```bash
+
 gcc -o analizador token.c lex.yy.c
 
-```bash
+
 ./analizador tests/test1.mini0
