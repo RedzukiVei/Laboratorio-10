@@ -1,0 +1,32 @@
+// test4.mini0
+// Prueba: Diferentes tipos de comentarios
+
+/* Este es un comentario
+   multilínea que abarca
+   varias líneas */
+
+fun test_comentarios(): int
+    x: int  // Comentario al final de línea
+    
+    /* Comentario en medio del código */ y: int
+    
+    x = 10  // Asignación con comentario
+    y = 20
+    
+    /*
+     * Comentario estilo bloque
+     * con múltiples líneas
+     * y asteriscos decorativos
+     */
+    
+    // Comentario simple
+    // Otro comentario simple
+    // Y otro más
+    
+    resultado: int
+    resultado = x + y  /* operación suma */
+    
+    return resultado
+end
+
+/* Comentario al final del archivo */

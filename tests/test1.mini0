@@ -1,0 +1,27 @@
+// test1.mini0
+// Prueba: Programa básico que usa la mayoría de palabras reservadas
+
+fun main(): int
+    x: int
+    y: int
+    resultado: bool
+    
+    x = 10
+    y = 20
+    
+    if x < y
+        resultado = true
+    else
+        resultado = false
+    end
+    
+    while x < 100
+        x = x + 1
+    loop
+    
+    return 0
+end
+
+fun suma(a: int, b: int): int
+    return a + b
+end

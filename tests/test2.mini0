@@ -1,0 +1,29 @@
+// test2.mini0
+// Prueba: Números decimales y hexadecimales
+// IMPORTANTE: 15 y 0x0F deben tener el mismo valor
+
+fun test_numeros(): int
+    dec1: int
+    hex1: int
+    dec2: int
+    hex2: int
+    
+    // Estos dos deben tener el mismo valor (15)
+    dec1 = 15
+    hex1 = 0x0F
+    
+    // Estos dos deben tener el mismo valor (255)
+    dec2 = 255
+    hex2 = 0xFF
+    
+    // Más números hexadecimales
+    valor1: int
+    valor2: int
+    valor3: int
+    
+    valor1 = 0x10
+    valor2 = 0xABCD
+    valor3 = 0x1234567
+    
+    return 0
+end

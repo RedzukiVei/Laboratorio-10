@@ -1,0 +1,65 @@
+// test5.mini0
+// Prueba: Todos los operadores y algunos errores léxicos
+
+fun test_operadores(a: int, b: int): bool
+    // Operadores aritméticos
+    suma: int
+    suma = a + b
+    
+    resta: int
+    resta = a - b
+    
+    mult: int
+    mult = a * b
+    
+    div: int
+    div = a / b
+    
+    // Operadores relacionales
+    mayor: bool
+    mayor = a > b
+    
+    menor: bool
+    menor = a < b
+    
+    mayor_igual: bool
+    mayor_igual = a >= b
+    
+    menor_igual: bool
+    menor_igual = a <= b
+    
+    igual: bool
+    igual = a = b
+    
+    diferente: bool
+    diferente = a <> b
+    
+    // Operadores lógicos
+    resultado1: bool
+    resultado1 = true and false
+    
+    resultado2: bool
+    resultado2 = true or false
+    
+    resultado3: bool
+    resultado3 = not true
+    
+    // Arrays
+    arreglo: []int
+    arreglo = new [10] int
+    elemento: int
+    elemento = arreglo[0]
+    arreglo[5] = 42
+    
+    // Caracteres inválidos (generarán errores)
+    // El siguiente símbolo @ no es válido en Mini-0
+    @ 
+    
+    // El símbolo # tampoco
+    #
+    
+    // Ni el $
+    $
+    
+    return resultado1
+end

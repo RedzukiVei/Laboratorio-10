@@ -1,0 +1,31 @@
+// test3.mini0
+// Prueba: Strings con diferentes tipos de escapes
+
+fun test_strings(): int
+    mensaje1: string
+    mensaje2: string
+    mensaje3: string
+    mensaje4: string
+    
+    // String simple
+    mensaje1 = "Hola Mundo"
+    
+    // String con salto de línea
+    mensaje2 = "Primera línea\nSegunda línea"
+    
+    // String con tabulación
+    mensaje3 = "Columna1\tColumna2\tColumna3"
+    
+    // String con comillas escapadas y backslash
+    mensaje4 = "Ella dijo: \"Hola\" y usó \\ como separador"
+    
+    // String vacío
+    vacio: string
+    vacio = ""
+    
+    // String con múltiples escapes
+    complejo: string
+    complejo = "Línea 1\n\tIndentado\n\"Entrecomillado\"\n\\Backslash\\"
+    
+    return 0
+end
